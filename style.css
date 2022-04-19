@@ -7,7 +7,7 @@
 .main{
     height: 100vh;
     width: 100%;
-    background-image: url(photo-1536987333706-fc9adfb10d91.jpeg);
+    background-image: url(new222.jpeg);
     background-size: cover;
     background-position: center;
    
@@ -16,7 +16,7 @@
   
 }
 .logo{
-    color:black;
+    color: palegreen;
     cursor: pointer;
 
 }
@@ -102,9 +102,8 @@ h3{
     width: 100%;
     padding: 20px 0px;
     color: blanchedalmond;
-    /* background-color: black; */
     margin-bottom: 200px;
-    background-image: url(nkullllll.jpeg); 
+    background-image: url(1.jpg); 
    
 }
 .me h4{
@@ -170,7 +169,10 @@ button:hover{
     
 
 }
+
 .button1 {
+   margin-left: 50px;
+  
     background-color: palevioletred;
     color: blanchedalmond;
     text-decoration: none;
@@ -182,7 +184,9 @@ button:hover{
     
 
 }
+
 .button2 {
+    margin-left: 50px;
     background-color: palevioletred;
     color: blanchedalmond;
     text-decoration: none;
@@ -191,7 +195,9 @@ button:hover{
     border-radius: 30px;
     transition: 0.3s;
 }
+
 .button3 {
+    margin-left: 50px;
     background-color: palevioletred;
     color: blanchedalmond;
     text-decoration: none;
@@ -199,11 +205,9 @@ button:hover{
     font-weight:bold;
     border-radius: 30px;
     transition: 0.4s;
-}
+} 
 
-.Contacts h2{
-    padding-bottom: 20px;
-}
+
 
 
 .skill h2{
@@ -323,12 +327,8 @@ h3{
     width: fit-content;
 
 }
-.nkuli{
-    margin-left: auto;
-    margin-right: auto ;
-    margin-top: 10px ;
-    
-}
+
+
 .button1{
     background-color: palevioletred;
     color: blanchedalmond;
@@ -364,8 +364,8 @@ h3{
     
 }
  .button4{
-    padding-left: 50px;
-   
+  
+   margin-left: -200px;
     color: black;
     text-decoration: none;
     border: 1px solid transparent;
@@ -375,9 +375,9 @@ h3{
     margin-top: 5px;
 }
 .button5{
-    padding-left: 50px;
+    margin-left: -150px;
 
-    color: black;
+    color: palevioletred;
     text-decoration: none;
     border: 1px solid transparent;
     font-weight:bold;
@@ -386,9 +386,8 @@ h3{
     margin-top: 5px;
 }
 .button6{
-    padding-left: 65px;
-
-    color: black;
+    margin-left: -150px;
+    color: palevioletred;
     text-decoration: none;
     border: 1px solid transparent;
     font-weight:bold;
@@ -397,27 +396,49 @@ h3{
     margin-top: 5px;
 }
 
-}
+
 .page img{
     float: left;
+    margin-right: 10px;
    
 }
+.grid{
+    padding-top: 50px;
+}
+.landing{
+    padding-top: 50px;
+}
 
-.pages img{
+ .pages img{
     float:left;
+    margin-right: 10px;
+    
     
 }
+
 .pages p{
  margin-left: 20px;
-}
+ text-align: justify;
 
+}
+.page p{
+    text-align: justify;
+} 
+.nkuli {
+    text-align: center;
+    padding-top: 40px;
+}
+.pra a{
+    color: palevioletred;
+}
+}
 
 
 @media screen and (min-width: 701px) {
     .button4{
-        padding-left: 50px;
-     
-        color: black;
+       
+        margin-left: -200px;
+        color: palevioletred;
         border: 5px solid transparent;
         font-weight:bold;
         border-radius: 30px;
@@ -425,9 +446,9 @@ h3{
     }
     
     .button5{
-        padding-left: 50px;
-      
-        color: black;
+       
+        margin-left: -150px;
+        color: palevioletred;
         
         border: 5px solid transparent;
         font-weight:bold;
@@ -436,29 +457,65 @@ h3{
     }
     
     .button6{
-        padding-left: 150px;
-         color: black;
+        margin-left: -150px;
+         color: palevioletred;
         border: 5px solid transparent;
         font-weight:bold;
         border-radius: 30px;
         transition: 0.3s;
     }
+    .button7{
+        margin-left: -150px;
+        color: palevioletred;
+        text-decoration: none;
+        border: 1px solid transparent;
+        font-weight:bold;
+        border-radius: 30px;
+        transition: 0.3s;
+        margin-top: 5px;
+    }
     .Basic {
 display: flex;
-padding-top: 20px;
+padding-top: 10px;
 text-align: center;
 
     }
    .page img{
        float: right;
+       margin-left: 10px;
+       width: 100px;
       
    }
    
    .pages img{
        float:right;
-       
+       margin-left: 10px;
+       width: 100px;
    }
    .pages p{
-    margin-left: 20px;
+    margin-left: 30px;
+    text-align: justify;
    }
+
+   .page p{
+    text-align: justify;
+   }
+   .nkuli {
+       text-align: center;
+       padding-bottom: 30px;
+   }
+   .button1{
+       
+      text-align: center;
+   }
+   .button2{
+    text-align: center;
+ }
+ .button3{
+    text-align: center;
+    
+ }
+ .pra a{
+     color: palevioletred;
+ }
 }
